@@ -47,7 +47,7 @@ footer {
 }
 
 section {
-	display: none;
+	display: home;
 }
 
 /* Display the section with the corresponding ID when its navigation link is clicked */
