@@ -1,0 +1,56 @@
+/* This is the style file for My webpage v1.0. This is created again with the help of ChatGPT*/
+body {
+	font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	background-image: url('wallikili.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+}
+
+nav {
+	text-align: center;
+    background-color: #444;
+    color: white;
+}
+
+nav a {
+	padding: 14px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+section {
+	display: none;
+}
+
+/* Display the section with the corresponding ID when its navigation link is clicked */
+section:target {
+	display: block;
+}
