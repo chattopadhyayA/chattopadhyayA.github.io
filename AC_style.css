@@ -83,6 +83,34 @@ section:target {
     overflow: hidden; /* Clear the float */
 }
 
+.videos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Spacing between video items */
+    flex-wrap: wrap; /* Wrap items to next line if there is not enough space */
+}
 
+.video-item {
+    flex: 0 0 calc(50% - 15px); /* Two items per row with 15px spacing */
+    box-sizing: border-box;
+}
 
+.youtube-video {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
 
+.youtube-video img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.youtube-video img:hover {
+    transform: scale(1.1);
+}
+
+.video-description {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+}
