@@ -8,6 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arghya Chattopadhyay</title>
     <link rel="stylesheet" href="AC_style.css"> 
+    <style>
+        /* Additional CSS to make the main content scrollable */
+        main {
+            height: 50vh; /* Set the main content height to 100% of viewport height */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+    </style>
 </head>
 
 
@@ -18,53 +25,138 @@
     </header>
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
+        <a href="#home" onclick="scrollToTop()">About me</a>
+        <a href="#publications" onclick="scrollToTop()">Publications</a>
+        <a href="#Teaching" onclick="scrollToTop()">Teaching</a>
+        <a href="#CV" onclick="scrollToTop()">CV</a>
+        <a href="#Music" onclick="scrollToTop()">Music</a>
+        <a href="#Blog" onclick="scrollToTop()">Blog</a>
+        <a href="#contact" onclick="scrollToTop()">Contact</a>
     </nav>
 <main>
+
+
+
+
+
     <!-- Home section -->
-    <section id="home">
-        <div class="content">
-            <div class="text-container">
-                <h2>Welcome to My Webpage</h2>
+    <section id="home" >
+    <div class="content">
+        <!-- Image displayed on the left -->
+        <div class="image-container">
+            <img src="ami.jpg" alt="Arghya Image" width="200" height="auto" style="border: 3px solid black;">
+
+        </div>
+
+        <div class="text-container">
+            <h2>About this page</h2>
                 <p>
-                    This is the main content area of my webpage. Y
+                    I am a theoretical physicist interested in various aspects of theoretical physics mainly in string theory and related topics. I have completed my bachelors and masters in physics from Visva-Bharati and moved to <a href=https://www.iiserb.ac.in>IISER Bhopal</a> to pursue PhD in theoretical physics. After finishing my degree in 2019 I have done postdoctoral fellowships in <a href=https://www.imsc.res.in>IMSc Chennai</a> and <a href=https://www.wits.ac.za>WITS University</a>.<br>
+                </p>
+                <p>
+                    Currently I am <a href=https://cometowallonia.eu/meet-our-fellows-arghya-chattopadhyay-totchty/> C2W postdoctoral fellow</a> at University of Mons in Belgium. Beyond academia I am a codind enthusiast and an aspiring musician trying to learn string instruments. This webpage is designed to be the nest of my varied interests and thoughts in different aspects of life. This webpage is a work-in-progress and any suggestion is welcome.  
+
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- About section -->
-    <section id="about">
-        <div class="text-container">
-            <h2>About Me</h2>
-            <p>
-               is getting updated
-            </p>
-        </div>
-    </section>
+
+
+
+
 
     <!-- Publications section -->
     <section id="publications">
-        <div class="text-container">
-            <h2>Publications</h2>
+        <div class="text-container" style="text-align: center;">
+            <h2 style="font-size: 2em;">Publications</h2>
+            <h4>A list of my recent academic publications is written below. The full details of my publications can be found in my <a href="https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=a%20arghya%20chattopadhyay&ui-citation-summary=true">inspire</a> profile.</h4>
+        </div>
+        <ol id="publication-list"></ol> <!-- Empty unordered list for publications -->
+    </section>
+
+
+
+    
+    <!-- Teaching section -->
+    <section id="Teaching">
+        <div class="text-container" style="text-align: center;">
+            <h2 style="font-size: 2em;">Teaching</h2>
+            <p> This page will soon be updated with my lecture notes and current teaching details.
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- CV Section -->
+    <section id="CV">
+        <!-- Embed PDF using iframe -->
+        <iframe src="Arghya_CV.pdf" width="100%" height="2000" style="border: none;"></iframe>
+            
+    </section>
+
+
+
+
+
+
+    <!-- Music section -->
+    <section id="Music">
+        <div class="text-container" style="text-align: center;">
+            <h2 style="font-size: 2em;">Music</h2>
+            <p> This page will soon be updated with my youtube channel and other music interests.
+        </div>
+    </section>
+
+
+
+
+
+
+<!-- Post section -->
+    <section id="Blog">
+        <div class="text-container" style="text-align: center;">
+            <h2 style="font-size: 2em;">Posts</h2>
+            <p> This page will soon be updated with my blog posts or links on various topics in mathematics, physics and of course music.
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="text-container" style="text-align: center;">
+            <h2 style="font-size: 2em;">Contact</h2>
             <p>
-                List of publications is getting updated.
+                You can reach out to me at <a href="mailto:arghya.chattopadhyay@gmail.com">arghya.chattopadhyay@gmail.com</a> or <a href="mailto:arghya.chattopadhyay@umons.ac.be">arghya.chattopadhyay@umons.ac.be</a>.<br><br>
+            Connect with me on 
+            <a href="https://www.linkedin.com/in/the-chattopadhyay/" style="text-decoration: none;">
+                <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="LinkedIn" height="24">
+            </a>,
+            <a href="https://github.com/chattopadhyayA" style="text-decoration: none;">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" height="24">
+            </a>,
+            or follow me on 
+            <a href="https://twitter.com/Lyaadlicoccus" style="text-decoration: none;">
+                <img src="https://cdn.worldvectorlogo.com/logos/twitter-3.svg" alt="Twitter" height="24">
+            </a>.<br><br><br><br>
+
+            <h3>Mailing adress</h3>
+                <p>
+                    Service de Physique de l'Univers, Champs et Gravitation<br>
+                    Universite de Mons<br>
+                    Place du Parc 20<br>
+                    7000 Mons, Belgium.
+                </p>
             </p>
         </div>
     </section>
 
-    <!-- Contact section -->
-    <section id="contact">
-        <div class="text-container">
-            <h2>Contact</h2>
-            <p>
-                Contact is getting updated.
-            </p>
-        </div>
-    </section>
 
 
 
@@ -72,6 +164,8 @@
     <footer>
         <p>&copy; 2024 To be used Freely</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </main>
 </body>

@@ -15,10 +15,20 @@ header {
     font-size: 2em;
 }
 
+header {
+    position: relative; /* Add this to make it a positioned ancestor */
+}
+
+/* Style for the navigation bar */
 nav {
-	text-align: center;
-    background-color: #444;
+    text-align: center;
+    background-color: rgba(68, 68, 68, 0.6); /* Transparent black background */
     color: white;
+    position: absolute; /* Position the navigation bar */
+    top: 21%; /* Align it to the top */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Full width */
+    z-index: 1; /* Ensure it appears above other content */
 }
 
 nav a {
@@ -31,6 +41,7 @@ nav a {
 nav a:hover {
 	background-color: #555;
 }
+
 
 main {
 	padding: 20px;
@@ -50,7 +61,28 @@ section {
 	display: none;
 }
 
+#home:target {
+	display: block;
+}
+
+
 /* Display the section with the corresponding ID when its navigation link is clicked */
 section:target {
 	display: block;
 }
+
+
+/* Image and text containers */
+
+.image-container {
+    float: left;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.text-container {
+    overflow: hidden; /* Clear the float */
+}
+
+
+
+
