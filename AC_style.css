@@ -38,9 +38,17 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
-	background-color: #555;
+/*nav a:hover {*/
+/*	background-color: #555;*/
+/*}*/
+
+nav a:hover,
+nav a:target {
+    /* Active (highlighted) styles */
+    font-weight: bold;
+    color: #ff0000; /* You can choose your preferred color */
 }
+
 
 
 main {
