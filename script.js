@@ -16,6 +16,15 @@ if (!window.location.hash) {
 // Function for bibtex
 
     const bibtexEntries = `
+    @article{Chattopadhyay:2024pdj,
+    author = "Chattopadhyay, Arghya and Malvimat, Vinay and Mitra, Arpita",
+    title = "Krylov complexity of deformed conformal field theories",
+    eprint = "2405.03630",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-th",
+    month = "5",
+    year = "2024"
+},
     @article{Chattopadhyay:2023nfc,
     author = "Chattopadhyay, Arghya and Mandal, Taniya and Marrani, Alessio",
     title = "Generalized Freudenthal duality for rotating extremal black holes",
