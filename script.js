@@ -16,6 +16,15 @@ if (!window.location.hash) {
 // Function for bibtex
 
     const bibtexEntries = `
+    @article{Chattopadhyay:2024dqs,
+    author = "Chattopadhyay, Arghya and Mandal, Taniya and Marrani, Alessio",
+    title = "Freudenthal Duality in Conformal Field Theory",
+    eprint = "2406.09259",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-th",
+    month = "6",
+    year = "2024"
+}
     @article{Chattopadhyay:2024pdj,
     author = "Chattopadhyay, Arghya and Malvimat, Vinay and Mitra, Arpita",
     title = "Krylov complexity of deformed conformal field theories",
