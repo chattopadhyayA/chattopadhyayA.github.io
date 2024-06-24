@@ -122,3 +122,9 @@ section:target {
     font-size: 1em;
     color: #666;
 }
+
+
+/* Clear floats */
+.clear {
+    clear: both;
+}
