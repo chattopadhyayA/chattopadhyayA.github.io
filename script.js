@@ -16,6 +16,15 @@ if (!window.location.hash) {
 // Function for bibtex
 
     const bibtexEntries = `
+    @article{Chattopadhyay:cond,
+    author = "Chanchal K. Barman and Arghya Chattopadhyay and Surajit Sarkar and Jian-Xin Zhu and Snehasish Nandy",
+    title = "Hierarchy of the third-order anomalous Hall effect: from clean to disorder regime",
+    eprint = "2409.07993",
+    archivePrefix = "arXiv",
+    primaryClass = "cond-mat.mes-hall",
+    month = "7",
+    year = "2024"
+}
     @article{Chattopadhyay:2024dqs,
     author = "Chattopadhyay, Arghya and Mandal, Taniya and Marrani, Alessio",
     title = "Freudenthal Duality in Conformal Field Theory",
