@@ -68,10 +68,12 @@ footer {
 
 section {
 	display: none;
+    scroll-margin-top: 0; /* Adjusts the scroll position */
 }
 
 #home:target {
 	display: block;
+    scroll-margin-top: 70px; /* Adjust the value to the height of your fixed header */
 }
 
 
