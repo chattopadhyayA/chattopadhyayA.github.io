@@ -19,6 +19,25 @@ header {
     position: relative; /* Add this to make it a positioned ancestor */
 }
 
+@media (max-width: 768px) {
+    .content {
+        display: block;
+    }
+    .image-container,
+    .text-container {
+        width: 100%;
+        float: none;
+        text-align: center; /* if you prefer centered content on mobile */
+    }
+    .text-container {
+        padding: 0 10px; /* add some padding for better readability */
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
 /* Style for the navigation bar */
 nav {
     text-align: center;
