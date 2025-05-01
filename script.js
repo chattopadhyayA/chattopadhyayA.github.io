@@ -225,6 +225,7 @@ if (!window.location.hash) {
             const listItem = document.createElement('li');
             const anchor = document.createElement('a');
             anchor.href = `https://arxiv.org/abs/${eprint}`;
+            anchor.target = "_blank";
             anchor.textContent = title;
 
             const info = document.createElement('span');
