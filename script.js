@@ -18,7 +18,7 @@ if (!window.location.hash) {
     const bibtexEntries = `
     @article{Basile:2025ylc,
     author = "Basile, Thomas and Boulanger, Nicolas and Chattopadhyay, Arghya",
-    title = "{Reframing classical mechanics: An AKSZ sigma model perspective}",
+    title = "Reframing classical mechanics: An AKSZ sigma model perspective",
     eprint = "2504.18826",
     archivePrefix = "arXiv",
     primaryClass = "hep-th",
