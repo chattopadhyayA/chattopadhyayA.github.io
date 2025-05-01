@@ -16,6 +16,15 @@ if (!window.location.hash) {
 // Function for bibtex
 
     const bibtexEntries = `
+    @article{Basile:2025ylc,
+    author = "Basile, Thomas and Boulanger, Nicolas and Chattopadhyay, Arghya",
+    title = "{Reframing classical mechanics: An AKSZ sigma model perspective}",
+    eprint = "2504.18826",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-th",
+    month = "4",
+    year = "2025"
+}
     @article{Chattopadhyay:cond,
     author = "Chanchal K. Barman and Arghya Chattopadhyay and Surajit Sarkar and Jian-Xin Zhu and Snehasish Nandy",
     title = "Hierarchy of the third-order anomalous Hall effect: from clean to disorder regime",
