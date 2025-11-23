@@ -16,13 +16,25 @@ if (!window.location.hash) {
 // Function for bibtex
 
     const bibtexEntries = `
+    @article{ferguson2025,
+    author = "Community Paper from the NSF Future of AI+MPS Workshop",
+    title = "The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)", 
+    eprint = "2509.02661",
+    archivePrefix = "arXiv",
+    primaryClass = "cs.AI",
+    year = "2025" 
+},
     @article{Bassa:2025qru,
     author = "Bassa, Juvenal and Manian, Vidya and Malik, Sudhir and Chattopadhyay, Arghya",
-    title = "Jet Image Tagging Using Deep Learning: An Ensemble Model",
+    title = "Jet image tagging using deep learning: an ensemble model",
     eprint = "2508.10034",
     archivePrefix = "arXiv",
     primaryClass = "physics.data-an",
-    month = "8",
+    doi = "10.1088/1748-0221/20/09/P09032",
+    journal = "JINST",
+    volume = "20",
+    number = "09",
+    pages = "P09032",
     year = "2025"
 },
     @article{Basile:2025ylc,
