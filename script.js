@@ -16,6 +16,15 @@ if (!window.location.hash) {
 // Function for bibtex
 
     const bibtexEntries = `
+    @article{Bassa:2025yed,
+    author = "Bassa, Juvenal and Chattopadhyay, Arghya and Malik, Sudhir and Rivera, Mario Escabi",
+    title = "MEDIC: a network for monitoring data quality in collider experiments",
+    eprint = "2511.18172",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    month = "11",
+    year = "2025"
+}
     @article{ferguson2025,
     author = "Community Paper from the NSF Future of AI+MPS Workshop",
     title = "The Future of Artificial Intelligence and the Mathematical and Physical Sciences (AI+MPS)", 
