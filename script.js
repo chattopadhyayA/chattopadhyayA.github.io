@@ -18,7 +18,7 @@ if (!window.location.hash) {
     const bibtexEntries = `
     @article{Chattopadhyay:2026dau,
     author = "Chattopadhyay, Arghya and Marrani, Alessio and Roychowdhury, Sourav",
-    title = "{The Routh of the Attractor Mechanism}",
+    title = "The Routh of the Attractor Mechanism",
     eprint = "2603.02559",
     archivePrefix = "arXiv",
     primaryClass = "hep-th",
@@ -37,7 +37,7 @@ if (!window.location.hash) {
 },
     @article{Aarrestad:2026xrs,
     author = "Community Paper from the CPSC collaboration",
-    title = "{Building an AI-native Research Ecosystem for Experimental Particle Physics: A Community Vision}",
+    title = "Building an AI-native Research Ecosystem for Experimental Particle Physics: A Community Vision",
     eprint = "2602.17582",
     archivePrefix = "arXiv",
     primaryClass = "hep-ex",
