@@ -16,6 +16,16 @@ if (!window.location.hash) {
 // Function for bibtex
 
     const bibtexEntries = `
+    @article{Chattopadhyay:2026dau,
+    author = "Chattopadhyay, Arghya and Marrani, Alessio and Roychowdhury, Sourav",
+    title = "{The Routh of the Attractor Mechanism}",
+    eprint = "2603.02559",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-th",
+    reportNumber = "CQUeST-2026-0772",
+    month = "3",
+    year = "2026"
+}
     @article{Bassa:2025yed,
     author = "Bassa, Juvenal and Chattopadhyay, Arghya and Malik, Sudhir and Rivera, Mario Escabi",
     title = "MEDIC: a network for monitoring data quality in collider experiments",
@@ -24,6 +34,16 @@ if (!window.location.hash) {
     primaryClass = "hep-ex",
     month = "11",
     year = "2025"
+},
+    @article{Aarrestad:2026xrs,
+    author = "Community Paper from the CPSC collaboration",
+    title = "{Building an AI-native Research Ecosystem for Experimental Particle Physics: A Community Vision}",
+    eprint = "2602.17582",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "FERMILAB-PUB-26-0152-AD-CSAID-PPD",
+    month = "2",
+    year = "2026"
 }
     @article{ferguson2025,
     author = "Community Paper from the NSF Future of AI+MPS Workshop",
